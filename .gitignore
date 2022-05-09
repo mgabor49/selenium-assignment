@@ -1,7 +1,7 @@
 .gradle
 build
 .idea
-credentials.txt
-gradlew
 gradlew.bat
-gradle
+gradlew
+credentials.txt
+gradle/wrapper
