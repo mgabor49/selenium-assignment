@@ -1,3 +1,7 @@
 .gradle
 build
 .idea
+credentials.txt
+gradlew
+gradlew.bat
+gradle
