@@ -1,2 +1,3 @@
-# selenium-assignment
-Selenium Assignment for SQAT class
+Selenium Assignment
+Name: Magyar Gábor
+Neptun code: FO3DTA
