@@ -8,7 +8,14 @@ public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait wait;
 
-
+    /**
+     * Declaration of the BasePage class.
+     * All other Page classes are children of this class.
+     * @param driver The current WebDriver
+     * Tasks satisfied:
+     *  - BasePage object class
+     *  - Page object pattern
+     */
     public BasePage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 10);
