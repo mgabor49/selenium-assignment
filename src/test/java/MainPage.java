@@ -54,6 +54,7 @@ public class MainPage extends BasePage{
      * Tasks satisfied:
      *  - Logout
      *  - Explicit wait
+     *  - Complex xPath 1x
      */
     public SignInPage logout(){
         WebElement profileHover = driver.findElement(By.xpath("//*[@id=\"ybar-inner-wrap\"]/div[2]/div/div[3]/div[1]/div"));
@@ -76,6 +77,7 @@ public class MainPage extends BasePage{
      * @return The username of the user in text format.
      * Task satisfied:
      *  - Hover test
+     *  - Complex xPath 1x
      */
     public String hoverOnProfile(){
         Actions actions = new Actions(driver);
